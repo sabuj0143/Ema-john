@@ -8,3 +8,25 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 45px;
 }
+
+.proceed-link{
+    text-decoration: none;
+}
+
+.btn-proceed{
+    height: 56px;
+    font-size: 17px;
+    margin: 10px auto;
+    background: #FF9900;
+    border-radius: 8px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn-checkout-icon{
+    font-size: 16px;
+    margin-left: 15px;
+    font-size: 27px;
+    color: white;
+}
