@@ -7,3 +7,15 @@
 .sub-title{
     text-align: center;
 }
+.btn-clear-cart{
+    width: 90%;
+    height: 56px;
+    font-size: 17px;
+    margin: 10px auto;
+    background-color: #FF3030;
+    border-radius: 8px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
