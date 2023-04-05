@@ -5,7 +5,6 @@ const Cart = ({cart}) => {
     // const  cart = props.cart;
     // const {cart} = props;
 
-    console.log(cart);
 
     let totalPrice = 0;
     let totalShipping = 0;
