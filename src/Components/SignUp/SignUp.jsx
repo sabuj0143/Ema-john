@@ -16,7 +16,7 @@ const SignUp = () => {
         const password = form.password.value;
         const confirm = form.confirm.value;
 
-        console.log(email, password, confirm);
+        // console.log(email, password, confirm);
 
         setError('')
         if(password !== confirm){
