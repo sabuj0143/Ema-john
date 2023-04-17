@@ -1,6 +1,6 @@
 .form-container {
     width: 500px;
-    height: 600px;
+    height: 650px;
     margin: 20px auto;
     border: 1px solid #95A0A7;
     border-radius: 8px;
@@ -57,4 +57,12 @@
 
 .btn-submit:hover {
     background: rgba(255, 153, 0, 0.6);
+}
+.link-div{
+    text-align: center;
+}
+
+.link-sign-up {
+    text-decoration: none;
+    color: #FF9900;
 }

@@ -1,0 +1,8 @@
+.text-error{
+    color: rgb(226, 115, 115);
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 0.0025em;
+}

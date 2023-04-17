@@ -6,4 +6,8 @@
  * 5. sign up & Login route
  * 6.
  * 
- * */ 
+ ***
+ * 1. Create a Context Provider file
+ * 2. create a context and set provider
+ * 
+ */ 
