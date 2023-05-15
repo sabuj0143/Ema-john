@@ -30,3 +30,7 @@
     font-size: 27px;
     color: white;
 }
+.pagination-container{
+    text-align: center;
+    margin-bottom: 50px;
+}
