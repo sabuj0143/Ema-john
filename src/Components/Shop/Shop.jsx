@@ -25,18 +25,26 @@ const Shop = () => {
 
     const pageNumbers = [...Array(totalPages).keys()];
 
+    // useEffect(() => {
+    //     fetch('http://localhost:5000/products')
+    //         .then(res => res.json())
+    //         .then(data => setProducts(data))
+    // }, [])
+
     useEffect(() => {
-        fetch('http://localhost:5000/products')
-            .then(res => res.json())
-            .then(data => setProducts(data))
-    }, [])
+        async function fetchData() {
+            const response = await fetch(`http://localhost:5000/products?page=${currentPage}&limit=${itemsPerPage}`)
+            const data = await response.json()
+            setProducts(data)
+        }
+        fetchData();
+    }, [currentPage, itemsPerPage])
+
 
     useEffect(() => {
 
         const storedCart = getShoppingCart();
         const savedCart = [];
-
-
         for (const id in storedCart) {
             const addedProduct = products.find(product => product._id === id)
             if (addedProduct) {
